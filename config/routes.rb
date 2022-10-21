@@ -10,6 +10,8 @@ get("/user_update/:an_id", { :controller => "users", :action => "update"})
 
 get("/users/:path_username", { :controller => "users", :action => "show"})
 
+get("/create_comment", { :controller => "photos", :action => "comment"})
+
 get("/photos", { :controller => "photos", :action => "index" })
 
 get("/photos/:path_id", { :controller => "photos", :action => "show"})
